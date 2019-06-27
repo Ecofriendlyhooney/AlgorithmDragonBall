@@ -1,6 +1,7 @@
 
 # Fibonacci series
-'''java
+
+'''
 //cannot handle over int range
 	private static void FibonacciIntOnly() {
 		// TODO Auto-generated method stub
