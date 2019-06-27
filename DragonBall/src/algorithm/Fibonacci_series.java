@@ -30,7 +30,7 @@ public class Fibonacci_series {
 		int c = 1;
 		
 		for(int i=0; i<101; i++) {
-			System.out.println(" [ " + i + "th " +b + " ] " );
+			System.out.println(" [ " + i + "th : " +b + " ] " );
 			a = b;
 			b = c;
 			c = a+b;
