@@ -18,7 +18,7 @@
 		}		
 	}
 	
-### from 45th value went wrong because of th3 int range
+### from 45th value went wrong as value over int range
  [ 0th : 1 ] 
  [ 1th : 1 ] 
  [ 2th : 2 ] 
@@ -120,3 +120,19 @@
  [ 98th : -889489150 ] 
  [ 99th : -980107325 ] 
  [ 100th : -1869596475 ] 
+
+--- 
+
+ 
+ 
+ private static void FibonacciBigInteger() {
+		BigInteger bigA = new BigInteger("1");
+		BigInteger bigB = new BigInteger("1");
+		BigInteger bigC = new BigInteger("1");
+		for(int i=0; i<101; i++) {
+			System.out.println(i + "th " + bigB);
+			bigA = bigB;
+			bigB = bigC;
+			bigC = bigA.add(bigB);
+		}
+	}
