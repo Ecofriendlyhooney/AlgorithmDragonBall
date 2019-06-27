@@ -4,8 +4,8 @@ import java.math.BigInteger;
 
 public class Fibonacci_series {
 	public static void main(String args[]) {
-		FibonacciIntOnly();
-//		FibonacciBigInteger();
+//		FibonacciIntOnly();
+		FibonacciBigInteger();
 	}
 	
 	//can handle over int range
@@ -15,7 +15,7 @@ public class Fibonacci_series {
 		BigInteger bigC = new BigInteger("1");
 		
 		for(int i=0; i<101; i++) {
-			System.out.println(i + "th " + bigB);
+			System.out.println(" [ " + i + "th : " + bigB + " ] " );
 			bigA = bigB;
 			bigB = bigC;
 			bigC = bigA.add(bigB);
@@ -30,7 +30,7 @@ public class Fibonacci_series {
 		int c = 1;
 		
 		for(int i=0; i<101; i++) {
-			System.out.println(" [ " + i + "th : " +b + " ] " );
+			System.out.println(" [ " + i + "th : " + b + " ] " );
 			a = b;
 			b = c;
 			c = a+b;
