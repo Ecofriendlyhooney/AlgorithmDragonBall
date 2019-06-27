@@ -1,8 +1,10 @@
 
 # Fibonacci series
 
+>//cannot handle over int range
+
 '''
-//cannot handle over int range
+
 	private static void FibonacciIntOnly() {
 		// TODO Auto-generated method stub
 		int a = 1;
@@ -16,4 +18,5 @@
 			c = a+b;
 		}		
 	}
+	
 '''
