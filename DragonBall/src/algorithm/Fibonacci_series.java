@@ -4,8 +4,8 @@ import java.math.BigInteger;
 
 public class Fibonacci_series {
 	public static void main(String args[]) {
-		//FibonacciIntOnly();
-		FibonacciBigInteger();
+		FibonacciIntOnly();
+//		FibonacciBigInteger();
 	}
 	
 	//can handle over int range
