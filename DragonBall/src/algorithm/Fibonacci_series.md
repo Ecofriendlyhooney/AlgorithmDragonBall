@@ -1,7 +1,7 @@
 
 # Fibonacci series
 
-> this function annot handle over int range
+> this function cannot handle over int range
 
 ```java
 	//cannot handle over int range
@@ -20,7 +20,7 @@
 	}
 ```
 
-### after 45th value went wrong as value over int range
+### after 45th, value went wrong as value over int range
  [ 0th : 1 ] 
  [ 1th : 1 ] 
  [ 2th : 2 ] 
@@ -125,7 +125,7 @@
 
 --- 
 
-> BigInteger can handle bigger value
+> BigInteger can handle bigger value (even till i<10000)
 
 
 ```java

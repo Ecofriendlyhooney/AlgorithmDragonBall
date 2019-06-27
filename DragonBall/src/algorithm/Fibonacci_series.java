@@ -14,7 +14,7 @@ public class Fibonacci_series {
 		BigInteger bigB = new BigInteger("1");
 		BigInteger bigC = new BigInteger("1");
 		
-		for(int i=0; i<101; i++) {
+		for(int i=0; i<10001; i++) {
 			System.out.println(" [ " + i + "th : " + bigB + " ] " );
 			bigA = bigB;
 			bigB = bigC;
