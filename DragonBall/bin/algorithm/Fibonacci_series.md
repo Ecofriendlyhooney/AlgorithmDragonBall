@@ -3,7 +3,7 @@
 
 > this function annot handle over int range
 
-
+```java
 	private static void FibonacciIntOnly() {
 		// TODO Auto-generated method stub
 		int a = 1;
@@ -17,7 +17,8 @@
 			c = a+b;
 		}		
 	}
-	
+```
+
 ### from 45th value went wrong as value over int range
  [ 0th : 1 ] 
  [ 1th : 1 ] 
@@ -124,7 +125,9 @@
 --- 
 
 > BigInteger can handle bigger value
-'''
+
+
+```java
  private static void FibonacciBigInteger() {
 		BigInteger bigA = new BigInteger("1");
 		BigInteger bigB = new BigInteger("1");
@@ -136,4 +139,4 @@
 			bigC = bigA.add(bigB);
 		}
 	}
-'''
+```
